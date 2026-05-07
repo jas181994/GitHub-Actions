@@ -19,8 +19,7 @@ update-newtag-in-helm-chart:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
+      uses: actions/checkout@v4    
       
 
     - name: Update tag in Helm chart
