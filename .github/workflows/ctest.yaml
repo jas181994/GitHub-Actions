@@ -13,8 +13,8 @@ jobs:
       - name: Create the file
         run: |
 
-          echo hello>testhello.txt
-
+          sed -i  's/hello/bye/'   testhello.txt
+          
           
           
       - name: Commit and push changes
