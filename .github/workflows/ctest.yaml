@@ -15,7 +15,7 @@ jobs:
 
           
 
-          sed -i  's/hello/hiii/'   testhello.txt
+          sed -i 's/tag: .*/tag: "${{github.run_id}}"/' helm/testapp/values.yaml
           
           
           
