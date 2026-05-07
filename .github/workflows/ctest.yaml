@@ -13,9 +13,9 @@ jobs:
       - name: Create the file
         run: |
 
-          echo hello>testhello.txt
+          
 
-          sed -i  's/bye/hiii/'   testhello.txt
+          sed -i  's/hello/hiii/'   testhello.txt
           
           
           
