@@ -15,7 +15,7 @@ jobs:
 
           echo hello>testhello.txt
 
-          sed -i  's/hello/bye/'   testhello.txt
+          sed -i  's/bye/hiii/'   testhello.txt
           
           
           
