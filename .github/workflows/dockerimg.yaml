@@ -28,9 +28,9 @@ jobs:
 
   
 
-on: [push]
 
-jobs:
+
+
   create-file:
     runs-on: ubuntu-latest
     permissions:
