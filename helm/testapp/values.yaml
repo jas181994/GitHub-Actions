@@ -7,8 +7,8 @@ replicaCount: 1
 image:
   repository: jasmeet181994/testapp
   pullPolicy: IfNotPresent
-  # Overrides the image tag: "${{PWD}}"
-  tag: "${{PWD}}"
+  # Overrides the image tag: "${{github.run_ip}}"
+  tag: "123"
 
 ingress:
   enabled: false
